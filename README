@@ -1,4 +1,6 @@
-This is a dummy project to make Travis run tests to test the Daikon distribution.
+This is a dummy project to make Travis run tests to test the Daikon
+distribution.  It's a separate job from the Linux one because Travis does
+not currently support switching the JDK version on MacOSX.
 
 To start a job:
 
