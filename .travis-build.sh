@@ -1,5 +1,7 @@
 #!/bin/bash -v
 
+export JAVA_HOME=$(/usr/libexec/java_home)
+
 # Fail the whole script if any command fails
 set -e
 
