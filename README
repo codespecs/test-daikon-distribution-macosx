@@ -4,6 +4,7 @@ not currently support switching the JDK version on MacOSX.
 
 To start a job:
 
-  $pl/bin/trigger-travis.sh codespecs test-daikon-distribution-macosx `cat ~/private/.travis-access-token`
+  curl -LO --retry 3 https://raw.github.com/mernst/plume-lib/master/bin/trigger-travis.sh
+  trigger-travis.sh codespecs test-daikon-distribution-macosx `cat ~/private/.travis-access-token`
 
 where $pl is a clone of plume-lib (https://github.com/mernst/plume-lib.git).
